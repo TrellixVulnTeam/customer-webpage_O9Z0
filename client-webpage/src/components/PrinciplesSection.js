@@ -31,7 +31,7 @@ const PrinciplesSection = () => {
                             <FontAwesomeIcon className="earth" icon={faEarthAmerica} />
                             <h3 className="icon-text">Travel</h3>
                         </div>
-                        <p className="text">Collect moments, not things.</p>
+                        <p className="text">Great things never came from comfort zones.</p>
                     </div>
                     <div className="card">
                         <div className="icon">

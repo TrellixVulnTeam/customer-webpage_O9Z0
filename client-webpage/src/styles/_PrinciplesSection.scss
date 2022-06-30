@@ -2,9 +2,10 @@
     min-height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 5rem 10rem;
+    justify-content:center;
+    padding: 5rem 10rem;  
     color: white;
+    background-color: #333333;
 }
 
 .description {
@@ -37,6 +38,7 @@
 
 .text {
     font-size: 18px;
+    padding-top: 10px;
 }
 
 .cards {

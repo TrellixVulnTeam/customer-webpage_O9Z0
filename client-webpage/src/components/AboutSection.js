@@ -18,7 +18,6 @@ const AboutSection = () => {
                     </div>
                 </div>
                 <p>A collection of moments through the bad, and the good and the even better! Welcome to my story.</p>
-                <button>Reach Out</button>
             </div>
             <div className="image">
                 <img className="aldo" src={me} alt="me" />
