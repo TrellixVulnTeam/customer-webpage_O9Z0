@@ -8,7 +8,7 @@ const WhoIsSection = () => {
                 <div className="aboutme">
                     <div className="myInfo">
                         <div className="info">
-                            <p id="myInfo" className="text">Aldo Pagani Jr is a <span>Software Engineer</span> & <span>Content Creator</span>. To put it best, anything that involves imaginative thinking is right up his alley.</p>
+                            <p id="myInfo" className="text">Aldo Pagani Jr is a Software Engineer, Content Creator & Entrepreneur. To put it best, anything that involves imaginative thinking is right up his alley.</p>
                         </div>
                     </div>
                     <hr></hr>
