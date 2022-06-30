@@ -1,0 +1,33 @@
+.about {
+    min-height: 90vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+    color: white;
+}
+
+.description {
+    padding-right: 5rem;
+    
+
+h2 {
+    font-weight: lighter;
+}
+}
+
+.image1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#aldo {
+    width: 35vw;
+    height: 80vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.hide {
+    overflow: hidden;
+}
