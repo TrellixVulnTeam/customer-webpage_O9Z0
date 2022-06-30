@@ -8,20 +8,20 @@
 }
 
 .description {
-    padding-right: 5rem;
-    
+    padding-right: 5rem;    
+}
 
-h2 {
+.first-heading {
     font-weight: lighter;
 }
-}
 
-.image1 {
+
+.image {
     display: flex;
     justify-content: space-around;
 }
 
-#aldo {
+.aldo {
     width: 35vw;
     height: 80vh;
     object-fit: cover;

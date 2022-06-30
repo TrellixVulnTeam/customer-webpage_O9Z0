@@ -1,13 +1,13 @@
 import React from "react";
-import home1 from "../images/me.jpg"
+import me from "../images/me.jpg"
 
 const AboutSection = () => {
     return(
-        <div class="about">
+        <div className="about">
             <div className="description">
                 <div className="title">
                     <div className="hide">
-                        <h2>
+                        <h2 className="first-heading">
                             Less Human
                         </h2>
                     </div>
@@ -17,11 +17,11 @@ const AboutSection = () => {
                         </h2>
                     </div>
                 </div>
-                <p>Contact us for any photography or videography ideas that you have. We have some of the best creative filmmakers in the industry.</p>
-                <button>Contact Us</button>
+                <p>A collection of moments through the bad, and the good and the even better! Welcome to my story.</p>
+                <button>Reach Out</button>
             </div>
-            <div className="image1">
-                <img id="aldo" src={home1} alt="guy with a camera" />
+            <div className="image">
+                <img className="aldo" src={me} alt="me" />
             </div>
         </div>
     )
