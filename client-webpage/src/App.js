@@ -1,16 +1,31 @@
 import React from "react";
 import "./styles/App.scss"
-import AboutUs from "./pages/AboutMe";
+import Photography from "./pages/Photography";
+import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
-import Footer from "./components/Footer"
+import About from "./pages/About";
+import {Switch, Route}  from "react-router-dom"
+
+
+
 
 function App() {
   return (
-    <div className="App">
-        <Nav/>
-        <AboutUs/>
-        <Footer/>
-    </div>
+          <div className="App">
+            <Nav/>
+            <Switch>
+              <Route path="/" exact>
+                <About/>
+              </Route>
+              <Route path="/Photography">
+                <Photography/>
+              </Route>
+              <Route path="/Contact">
+                <Contact/>
+              </Route>
+            </Switch>
+          </div>
+  
   );
 }
 
