@@ -1,6 +1,35 @@
-.Photography {
-    min-height: 100vh;
-    overflow: hidden;
-    height: 200px;
-    width: 200px;
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw;
+    grid-gap: 1rem 15rem;
+    padding: 5rem 10rem;
+    width: 50vw;
+    height: 50vh;
 }
+
+
+.images {
+    box-sizing: border-box;
+    height: 30rem;
+    width: 22.5rem;
+    opacity: 70%;
+}
+
+.images:hover{
+    opacity: 100%;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+
+
