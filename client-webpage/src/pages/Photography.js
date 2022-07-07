@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom";
+import {pageAnimation} from "../animation";
 import antigua1 from "../images/antigua1.jpg";
 import antigua2 from "../images/antigua2.jpg";
 import cancun1 from "../images/cancun1.jpg";
@@ -20,7 +21,7 @@ import random5 from "../images/random5.jpg"
 
 const Photography = () => {
     return (
-        <div className="container">
+        <motion.div  exit="exit" variants={pageAnimation} initial="hidden" animate="show" className="container">
             <motion.img whileHover={{scale: 1.1}}  className="images" src={antigua1} alt="travel"/>
             <motion.img whileHover={{scale: 1.1}}  className="images" src={antigua2} alt="travel"/>
             <motion.img whileHover={{scale: 1.1}}  className="images" src={cancun1}  alt="travel"/>
@@ -36,7 +37,7 @@ const Photography = () => {
             <motion.img whileHover={{scale: 1.1}}  className="images" src={random3} alt="travel"/>
             <motion.img whileHover={{scale: 1.1}}  className="images" src={random4} alt="travel"/>
             <motion.img whileHover={{scale: 1.1}}  className="images" src={random5} alt="travel"/>
-        </div>
+        </motion.div>
     )
 }
 
