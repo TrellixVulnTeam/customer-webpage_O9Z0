@@ -21,23 +21,23 @@ import random5 from "../images/random5.jpg"
 
 const Photography = () => {
     return (
-        <motion.div  exit="exit" variants={pageAnimation} initial="hidden" animate="show" className="container">
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={antigua1} alt="travel"/>
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={antigua2} alt="travel"/>
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={cancun1}  alt="travel"/>
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={cancun2}  alt="travel"/>
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={cancun4}  alt="travel"/>
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={cancun5}  alt="travel"/>
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={cancun6}  alt="travel"/>
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={cancun7}  alt="travel"/>
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={tikal2} alt="travel"/>
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={tikal3} alt="travel"/>
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={random1} alt="travel"/>
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={random2} alt="travel"/>
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={random3} alt="travel"/>
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={random4} alt="travel"/>
-            <motion.img whileHover={{scale: 1.1}}  className="images" src={random5} alt="travel"/>
-        </motion.div>
+            <motion.div  exit="exit" variants={pageAnimation} initial="hidden" animate="show" className="container">
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={antigua1} alt="travel"/>
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={antigua2} alt="travel"/>
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={cancun1}  alt="travel"/>
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={cancun2}  alt="travel"/>
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={cancun4}  alt="travel"/>
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={cancun5}  alt="travel"/>
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={cancun6}  alt="travel"/>
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={cancun7}  alt="travel"/>
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={tikal2} alt="travel"/>
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={tikal3} alt="travel"/>
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={random1} alt="travel"/>
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={random2} alt="travel"/>
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={random3} alt="travel"/>
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={random4} alt="travel"/>
+                <motion.img whileHover={{scale: 1.1}}  className="images" src={random5} alt="travel"/>
+            </motion.div>
     )
 }
 

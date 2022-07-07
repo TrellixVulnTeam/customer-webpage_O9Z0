@@ -1,9 +1,13 @@
 import React from "react";
 import beachMe from "../images/beachMe.jpg"
+import { useScroll } from "./useScroll";
+import { motion } from "framer-motion";
+import { fade } from "../animation";
 
 const WhoIsSection = () => {
+    const [element, controls] = useScroll();
     return (
-        <div className="WhoIsAldo">
+        <motion.div className="WhoIsAldo" variants={fade} animate={controls} initial="hidden" ref={element}>
             <div className="description">
                 <div className="aboutme">
                     <div className="myInfo">
@@ -23,7 +27,7 @@ const WhoIsSection = () => {
             <div className="image">
                     <img className="aldoBeach" src={beachMe} alt="me" />
             </div>
-        </div>
+        </motion.div>
     )
 }
 

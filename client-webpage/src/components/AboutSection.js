@@ -1,21 +1,21 @@
 import React from "react";
 import me from "../images/me.jpg"
 import { motion } from "framer-motion"
-import {fade} from "../animation"
-
-
+import {fade, photoAnim} from "../animation"
+import { useScroll } from "./useScroll";
 
 const AboutSection = () => {
 
     const titleAnim = {
         hidden: {opacity: 0},
-        show: {opacity: 1, transition: {duration: 2}}
+        show: {opacity: 1, transition: {duration: 3}}
     }
 
     const container = {
         hidden: {x: 100},
         show: {x: 0, transition: {duration: 0.75, ease: "easeOut", staggerChildren: .75, delay: .1}},
     }
+
     return(
         <div className="about">
             <div className="description">
@@ -34,7 +34,7 @@ const AboutSection = () => {
                 <motion.p variants={fade}>A collection of moments through the bad, and the good and the even better! Welcome to my story.</motion.p>
             </div>
             <div className="image">
-                <img className="aldo" src={me} alt="me"/>
+                <motion.img variants={photoAnim} className="aldo" src={me} alt="me"/>
             </div>
         </div>
     )

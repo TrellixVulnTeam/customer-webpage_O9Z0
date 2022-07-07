@@ -5,10 +5,15 @@ import { faHourglass } from "@fortawesome/free-solid-svg-icons";
 import { faEarthAmerica } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faSackXmark } from "@fortawesome/free-solid-svg-icons";
+import { useScroll } from "./useScroll";
+import { motion } from "framer-motion";
+import { fade } from "../animation";
 
 const PrinciplesSection = () => {
-    return (
-        <div className="principles">
+
+    const [element, controls] = useScroll();
+    return ( 
+        <motion.div className="principles"  variants={fade} animate={controls} initial="hidden" ref={element}>
             <div className="description">
                 <h2 className="second-heading">Daily <span>Reminders.</span></h2>
                 <div className="cards">
@@ -19,7 +24,7 @@ const PrinciplesSection = () => {
                         </div>
                         <p className="text">Your time is limited, Don't waste it living someone else's life.</p>
                     </div>
-                    <div className="card">
+                    <div className="card" >
                         <div className="icon">
                             <FontAwesomeIcon className="money" icon={faSackXmark} />
                             <h3 className="icon-text">Money</h3>
@@ -45,7 +50,7 @@ const PrinciplesSection = () => {
             <div className="image">
                 <img className="flower-shot" src={flower} alt="flower" />
             </div>
-        </div>
+        </motion.div>
     )
 }
 
