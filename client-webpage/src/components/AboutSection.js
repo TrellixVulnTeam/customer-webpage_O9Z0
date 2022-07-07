@@ -1,6 +1,7 @@
 import React from "react";
 import me from "../images/me.jpg"
 
+
 const AboutSection = () => {
     return(
         <div className="about">
