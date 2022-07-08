@@ -1,8 +1,8 @@
 import React from "react";
 import me from "../images/me.jpg"
-import { motion } from "framer-motion"
 import {fade, photoAnim} from "../animation"
-import { useScroll } from "./useScroll";
+import { motion } from "framer-motion"
+
 
 const AboutSection = () => {
 

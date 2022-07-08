@@ -1,18 +1,27 @@
+
 .container {
-    position: relative;
-    display: grid;
-    grid-template-columns: 10vw 10vw 10vw;
-    grid-gap: 2rem 15rem;
+    display: flex;
+    flex-direction:row;
     padding: 5rem 10rem;
-    width: 50vw;
-    height: 50vh;
 }
 
+.col1{
+   align-items: center;
+   margin-right: 1.5rem;
+}
+.col2{
+    align-items: center;
+    margin-right: 1.5rem;
+ }
+ .col3{
+    align-items: center;
+ }
+ 
 
 .images {
-    box-sizing: border-box;
     height: 30rem;
     width: 22.5rem;
+    padding-bottom: 1.5rem;
     opacity: 70%;
 }
 
@@ -28,7 +37,7 @@
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-  }
+}
 
 
 

@@ -4,6 +4,7 @@ import Photography from "./pages/Photography";
 import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
 import About from "./pages/About";
+import Footer from "./components/Footer";
 import {Switch, Route, useLocation}  from "react-router-dom";
 import {AnimatePresence} from "framer-motion";
 
@@ -30,6 +31,7 @@ function App() {
                 </Route>
               </Switch>
             </AnimatePresence>
+            <Footer />
           </div>
   
   );
