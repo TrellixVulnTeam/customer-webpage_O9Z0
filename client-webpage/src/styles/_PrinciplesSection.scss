@@ -64,4 +64,15 @@
   }
 }
 
+.principles{
+@media (max-width: 1200px){
+    font-size: 75%;
+}
+}
 
+.flower-shot{
+    @media (max-width: 1200px){
+        min-height: 100vh;
+        margin-top: 8rem;
+    }
+    }
