@@ -3,6 +3,7 @@ import beachMe from "../images/beachMe.jpg"
 import { useScroll } from "./useScroll";
 import { motion } from "framer-motion";
 import { fade } from "../animation";
+import {Link} from "react-router-dom";
 
 const WhoIsSection = () => {
     const [element, controls] = useScroll();
@@ -21,7 +22,9 @@ const WhoIsSection = () => {
                             <p id="collaborations" className="text">For collaborations, business inquiries, and interviews please feel free to reach out.</p>
                         </div>
                     </div>
-                    <button>Reach Out</button>
+                    <button className="home-button">
+                        <Link to="/Contact">Contact</Link>
+                    </button>
                  </div>
             </div>
             <div className="image">
