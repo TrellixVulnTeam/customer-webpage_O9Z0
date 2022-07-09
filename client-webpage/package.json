@@ -1,4 +1,5 @@
 {
+  "homepage": "https://aldopaganijr.github.io/customer-webpage",
   "name": "client-webpage",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,7 @@
     "axios": "^0.24.0",
     "bootstrap": "^5.1.3",
     "framer-motion": "^6.4.2",
+    "node-sass": "^7.0.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.2.0",
@@ -26,6 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "pre-deploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
