@@ -5,11 +5,21 @@
     justify-content: space-between;
     padding: 5rem 10rem;
     color: white;
+
+    @media (max-width: 950px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-.description {
+.whoisdescription {
 padding-right: 5rem;
+
+@media (max-width: 950px) {
+    margin-left: 8rem;
+    }
 }
+
 
 .text {
     font-size: 18px;
@@ -25,6 +35,16 @@ padding-right: 5rem;
     height: 80vh;
     object-fit: cover;
     overflow: hidden;
+
+    @media (max-width: 950px) {
+        min-width: 50vw;
+        min-height: 70vh;
+        margin-top: 5rem;
+    }
+
+    @media (max-width: 850px){
+        display: none;
+    }
 }
 
 hr {
@@ -35,10 +55,17 @@ hr {
     padding-top: 3rem;
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
+
+    @media (max-width: 950px) {
+        font-size: 30px;
+        }
 }
 
 #myInfo {
     font-size: 20px;
+    @media (max-width: 950px) {
+    font-size: 25px;
+    }
 }
 
 .home-button a:hover{
@@ -49,6 +76,18 @@ hr {
     text-decoration: none;
 }
 
+.aboutme {
+    @media (max-width: 850px) {
+        min-width: 60vw;
+        margin-right: 2.5rem;
+        }
+}
+
+.home-button{
+    @media (max-width: 850px) {
+        min-width: 60vw
+        }
+}
 
 
 
