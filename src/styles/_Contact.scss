@@ -95,6 +95,39 @@ form{
     @media (max-width: 1150px){
         flex-direction: column;
     }
+    @media (max-width: 1150px){
+        input{
+            min-width: 40vw;
+        }
+        textarea{
+            min-width: 40vw;
+        }
+        button{
+            min-width: 40vw;
+        }
+    }
+    @media (max-width: 800px){
+        input{
+            min-width: 50vw;
+        }
+        textarea{
+            min-width: 50vw;
+        }
+        button{
+            min-width: 50vw;
+        }
+    }
+    @media (max-width: 600px){
+        input{
+            min-width: 60vw;
+        }
+        textarea{
+            min-width: 60vw;
+        }
+        button{
+            min-width: 60vw;
+        }
+    }
 }
 
 

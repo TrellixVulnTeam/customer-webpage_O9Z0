@@ -9,7 +9,7 @@ const WhoIsSection = () => {
     const [element, controls] = useScroll();
     return (
         <motion.div className="WhoIsAldo" variants={fade} animate={controls} initial="hidden" ref={element}>
-            <div className="description">
+            <div className="whoisdescription">
                 <div className="aboutme">
                     <div className="myInfo">
                         <div className="info">

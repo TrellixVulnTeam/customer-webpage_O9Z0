@@ -27,9 +27,18 @@
 
 .flower-shot {
     width: 35vw;
-    height: 80vh;
+    height: 85vh;
     object-fit: cover;
     overflow: hidden;
+
+    @media (max-width:1200px){
+        width: 35vw;
+        height: 100vh;
+        margin-top: 9rem;
+    }
+    @media (max-width:675px) {
+        display: none;
+    }
 }
 
 .hide {
@@ -44,6 +53,9 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
+    @media (max-width:675px) {
+        margin-left: 6.5rem;
+    }
 }
 
 .card {
@@ -64,15 +76,3 @@
   }
 }
 
-.principles{
-@media (max-width: 1200px){
-    font-size: 75%;
-}
-}
-
-.flower-shot{
-    @media (max-width: 1200px){
-        min-height: 100vh;
-        margin-top: 8rem;
-    }
-    }
