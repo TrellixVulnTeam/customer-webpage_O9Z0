@@ -1,0 +1,55 @@
+.about {
+    min-height: 90vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+    color: white;
+    background-color: #1b1b1b;
+
+    @media (max-width: 900px) {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 2rem;
+        justify-content: center;
+        text-align: center;
+        margin-left: 5rem;
+      }
+}
+
+.description {
+    padding-right: 5rem;    
+}
+
+.first-heading {
+    font-weight: lighter;
+}
+
+
+.image {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aldo {
+    width: 35vw;
+    height: 80vh;
+    object-fit: cover;
+    overflow: hidden;
+
+    @media (max-width: 900px) {
+        width: 50vw;
+        height: 45vh;
+        margin-right: 5.25rem;
+}
+
+@media (max-width: 600px) {
+    width: 60vw;
+    height: 50vh;
+    margin-right: 5.25rem;
+}
+}
+
+.hide {
+    overflow: hidden;
+}

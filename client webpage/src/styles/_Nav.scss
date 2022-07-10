@@ -1,0 +1,68 @@
+nav {
+  min-height: 10vh;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10rem;
+  background-color: #6f2232;
+
+  ul{
+     display: flex;
+     list-style-type: none;
+     font-family: 'Poppins', sans-serif;
+
+     li{
+      padding-left: 2.8rem;
+      position: relative;
+     }
+  }
+
+  a{
+      color:white;
+      text-decoration: none;
+  }
+}
+
+#logo {
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: 'Bebas Neue', cursive;
+}
+
+@media (max-width: 1300px) {
+  flex-direction: column;
+  padding: 2rem 1rem;
+  #logo {
+    display: inline-block;
+    margin: 1rem;
+  }
+  ul {
+    padding: 2rem;
+    justify-content: space-around;
+    width: 100%;
+    li {
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  #logo {
+      display: none;
+  }
+
+  ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 6rem;
+  }
+
+  li {
+      align-items: center;
+      justify-content: center;
+  }
+}
+
+
