@@ -16,12 +16,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-a:visited { 
-    text-decoration: none; 
-    color: white;
-   }
-
-   a:focus { 
+   a:link, a:visited,  a:hover, a:active {
     text-decoration: none; 
     color: white;
    }
